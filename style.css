@@ -1,0 +1,51 @@
+body{
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    padding:10px 25px 15px 50px;
+    height: 10%;
+    background-color:rgb(36, 251, 118);
+}
+.name{
+    text-decoration: none;
+    color:black;
+    font-size:40px;
+    padding-left: 20px;
+}
+
+.headName{
+    position:relative;
+    display:flex;
+    align-items: center;
+}
+
+.headName ul{
+ padding-left:600px;
+}
+.headName ul li{
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 40px;
+    font-weight: bolder;
+
+}
+.headName ul li a{
+    text-decoration: none;
+    color:black;
+}
+.headName ul li a:hover{
+    background-color:white;
+    border-radius:5%;
+}
+.para{
+    font-size:20px;
+}
+#imgs img{
+    height: 350px;
+    width:450px;
+    padding: 20px;
+}
